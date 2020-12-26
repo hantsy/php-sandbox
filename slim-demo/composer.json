@@ -1,0 +1,25 @@
+{
+    "name": "hantsy/slim-demo",
+    "description": "Slim Sandbox",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "slim/slim": "^4.7",
+        "slim/psr7": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "start": [
+            "php -S localhost:8080 -t public public/index.php"
+        ]
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Hantsy Bai",
+            "email": "hantsy@gmail.com"
+        }
+    ]
+}
